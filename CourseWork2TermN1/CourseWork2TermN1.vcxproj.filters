@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\check">
+      <UniqueIdentifier>{cdb296c1-2504-40e6-8b7f-3157a726aacd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\convert">
+      <UniqueIdentifier>{c7b66f99-3f44-48a9-8859-dcfe0288500e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\output">
+      <UniqueIdentifier>{231b65d7-3839-4548-90dc-ac0ebc983a80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\input">
+      <UniqueIdentifier>{647c303b-df89-4205-ad72-58ddc3374483}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\interface">
+      <UniqueIdentifier>{ee89094d-d4d0-490a-956f-1f53c8b55833}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\file">
+      <UniqueIdentifier>{b1a16216-abb4-4099-8e0f-bd3bef60be07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\userFunction">
+      <UniqueIdentifier>{623588f7-889b-4883-8171-96b79d1df046}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\productFunction">
+      <UniqueIdentifier>{4ca71de2-1665-4d9a-98a7-5ce59714ffb6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="definition\check\isDigit.c">
+      <Filter>Исходные файлы\check</Filter>
+    </ClCompile>
+    <ClCompile Include="definition\convert\convertPtrCharToInteger.c">
+      <Filter>Исходные файлы\convert</Filter>
+    </ClCompile>
+    <ClCompile Include="definition\input\inputFirstNatural.c">
+      <Filter>Исходные файлы\input</Filter>
+    </ClCompile>
+    <ClCompile Include="definition\functions.c">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="startProgram.c">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="definition\input\getPressedCharacter.c">
+      <Filter>Исходные файлы\input</Filter>
+    </ClCompile>
+    <ClCompile Include="definition\interface\basicMenu.c">
+      <Filter>Исходные файлы\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="definition\interface\authorizationMenu.c">
+      <Filter>Исходные файлы\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="definition\input\inputFileUsers.c">
+      <Filter>Исходные файлы\input</Filter>
+    </ClCompile>
+    <ClCompile Include="definition\interface\adminMenu.c">
+      <Filter>Исходные файлы\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="definition\interface\userMenu.c">
+      <Filter>Исходные файлы\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="definition\userFunction\resetPassword.c">
+      <Filter>Исходные файлы\userFunction</Filter>
+    </ClCompile>
+    <ClCompile Include="definition\output\saveFileUsers.c">
+      <Filter>Исходные файлы\output</Filter>
+    </ClCompile>
+    <ClCompile Include="definition\interface\CRUDUser.c">
+      <Filter>Исходные файлы\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="definition\userFunction\registerUser.c">
+      <Filter>Исходные файлы\userFunction</Filter>
+    </ClCompile>
+    <ClCompile Include="definition\output\addUserFileUsers.c">
+      <Filter>Исходные файлы\output</Filter>
+    </ClCompile>
+    <ClCompile Include="definition\interface\listUsersMenu.c">
+      <Filter>Исходные файлы\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="definition\interface\choiceFilterMenu.c">
+      <Filter>Исходные файлы\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="definition\interface\choiceFilterByPrivilegeMenu.c">
+      <Filter>Исходные файлы\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="definition\interface\choiceColumnSortMenu.c">
+      <Filter>Исходные файлы\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="definition\interface\choiceFilterByBlockedMenu.c">
+      <Filter>Исходные файлы\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="definition\input\inputInteger.c">
+      <Filter>Исходные файлы\input</Filter>
+    </ClCompile>
+    <ClCompile Include="definition\output\printUsersConsole.c">
+      <Filter>Исходные файлы\output</Filter>
+    </ClCompile>
+    <ClCompile Include="definition\output\printCharacterConsole.c">
+      <Filter>Исходные файлы\output</Filter>
+    </ClCompile>
+    <ClCompile Include="definition\convert\convertIntegerToPtrChar.c">
+      <Filter>Исходные файлы\convert</Filter>
+    </ClCompile>
+    <ClCompile Include="definition\output\printFromIndexLineNCharacters.c">
+      <Filter>Исходные файлы\output</Filter>
+    </ClCompile>
+    <ClCompile Include="definition\userFunction\blockUser.c">
+      <Filter>Исходные файлы\userFunction</Filter>
+    </ClCompile>
+    <ClCompile Include="definition\userFunction\deleteUser.c">
+      <Filter>Исходные файлы\userFunction</Filter>
+    </ClCompile>
+    <ClCompile Include="definition\interface\CRUDProductTransportationMenu.c">
+      <Filter>Исходные файлы\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="definition\check\isLetters.c">
+      <Filter>Исходные файлы\check</Filter>
+    </ClCompile>
+    <ClCompile Include="definition\check\isDate.c">
+      <Filter>Исходные файлы\check</Filter>
+    </ClCompile>
+    <ClCompile Include="definition\check\isTime.c">
+      <Filter>Исходные файлы\check</Filter>
+    </ClCompile>
+    <ClCompile Include="definition\check\isFloat.c">
+      <Filter>Исходные файлы\check</Filter>
+    </ClCompile>
+    <ClCompile Include="definition\check\isCapitalizedWord.c">
+      <Filter>Исходные файлы\check</Filter>
+    </ClCompile>
+    <ClCompile Include="definition\check\isLowerLetters.c">
+      <Filter>Исходные файлы\check</Filter>
+    </ClCompile>
+    <ClCompile Include="definition\input\inputWord.c">
+      <Filter>Исходные файлы\input</Filter>
+    </ClCompile>
+    <ClCompile Include="definition\convert\convertPtrCharToFloat.c">
+      <Filter>Исходные файлы\convert</Filter>
+    </ClCompile>
+    <ClCompile Include="definition\productFunction\createTransportationMenu.c">
+      <Filter>Исходные файлы\productFunction</Filter>
+    </ClCompile>
+    <ClCompile Include="definition\input\inputFileTransportations.c">
+      <Filter>Исходные файлы\input</Filter>
+    </ClCompile>
+    <ClCompile Include="definition\output\saveFileTransportations.c">
+      <Filter>Исходные файлы\output</Filter>
+    </ClCompile>
+    <ClCompile Include="definition\productFunction\deleteTransportation.c">
+      <Filter>Исходные файлы\productFunction</Filter>
+    </ClCompile>
+    <ClCompile Include="definition\output\printProductsTransportationConsole.c">
+      <Filter>Исходные файлы\output</Filter>
+    </ClCompile>
+    <ClCompile Include="definition\interface\listProductsTransportationMenu.c">
+      <Filter>Исходные файлы\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="definition\interface\choiceFilterProductsTransportationMenu.c">
+      <Filter>Исходные файлы\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="definition\interface\choiceColumnSortProductsTransportationMenu.c">
+      <Filter>Исходные файлы\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="definition\convert\convertFloatToPtrChar.c">
+      <Filter>Исходные файлы\convert</Filter>
+    </ClCompile>
+    <ClCompile Include="definition\productFunction\counterTransportationsOfUser.c">
+      <Filter>Исходные файлы\productFunction</Filter>
+    </ClCompile>
+    <ClCompile Include="definition\productFunction\sumPricesTransportationsOfUser.c">
+      <Filter>Исходные файлы\productFunction</Filter>
+    </ClCompile>
+    <ClCompile Include="definition\productFunction\sumDistanceTraveledTransportationsOfUser.c">
+      <Filter>Исходные файлы\productFunction</Filter>
+    </ClCompile>
+    <ClCompile Include="definition\productFunction\sumFuelConsumedTransportationsOfUser.c">
+      <Filter>Исходные файлы\productFunction</Filter>
+    </ClCompile>
+    <ClCompile Include="definition\productFunction\findProfitableIdTransportationsOfUser.c">
+      <Filter>Исходные файлы\productFunction</Filter>
+    </ClCompile>
+    <ClCompile Include="definition\productFunction\findProfitableIdTransportationsOfUsers.c">
+      <Filter>Исходные файлы\productFunction</Filter>
+    </ClCompile>
+    <ClCompile Include="definition\productFunction\findMaxNumberProductsIdTransportationsOfUsers — копия.c">
+      <Filter>Исходные файлы\productFunction</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\check.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="include\constants.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="include\convert.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="include\functions.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="include\input.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="include\interface.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="include\struct.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="include\userFunction.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="include\output.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="include\transportationFunction.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="file\users.txt">
+      <Filter>Исходные файлы\file</Filter>
+    </Text>
+    <Text Include="file\transportations.txt">
+      <Filter>Исходные файлы\file</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
