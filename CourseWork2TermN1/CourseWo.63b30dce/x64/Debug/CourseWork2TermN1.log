@@ -1,0 +1,69 @@
+﻿  isCapitalizedWord.c
+  isDate.c
+  isDigit.c
+E:\Учеба\CourseWorks\CourseWork2TermN1\definition\check\isDigit.c(4,19): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  isFloat.c
+E:\Учеба\CourseWorks\CourseWork2TermN1\definition\check\isFloat.c(4,36): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  isLetters.c
+E:\Учеба\CourseWorks\CourseWork2TermN1\definition\check\isLetters.c(5,19): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  isLowerLetters.c
+E:\Учеба\CourseWorks\CourseWork2TermN1\definition\check\isLowerLetters.c(4,19): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  isTime.c
+E:\Учеба\CourseWorks\CourseWork2TermN1\definition\check\isTime.c(4,19): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  convertFloatToPtrChar.c
+  convertIntegerToPtrChar.c
+  convertPtrCharToFloat.c
+  convertPtrCharToInteger.c
+E:\Учеба\CourseWorks\CourseWork2TermN1\definition\convert\convertPtrCharToInteger.c(4,19): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  functions.c
+  getPressedCharacter.c
+  inputFileTransportations.c
+  inputWord.c
+  inputFileUsers.c
+  inputFirstNatural.c
+  inputInteger.c
+  adminMenu.c
+E:\Учеба\CourseWorks\CourseWork2TermN1\definition\interface\adminMenu.c(79,16): warning C4013: findProfitableIdTransportationsOfUsers: нет определения; предполагается "extern" с возвратом типа "int"
+E:\Учеба\CourseWorks\CourseWork2TermN1\definition\interface\adminMenu.c(90,26): warning C4013: findMaxNumberProductsIdTransportationsOfUsers: нет определения; предполагается "extern" с возвратом типа "int"
+E:\Учеба\CourseWorks\CourseWork2TermN1\definition\interface\adminMenu.c(79,16): warning C4244: инициализация: преобразование "int" в "float", возможна потеря данных
+  authorizationMenu.c
+  Создание кода...
+  Компиляция...
+  basicMenu.c
+  choiceColumnSortMenu.c
+  choiceColumnSortProductsTransportationMenu.c
+  choiceFilterByBlockedMenu.c
+  choiceFilterByPrivilegeMenu.c
+  choiceFilterMenu.c
+  choiceFilterProductsTransportationMenu.c
+  CRUDProductTransportationMenu.c
+  CRUDUser.c
+  listProductsTransportationMenu.c
+  listUsersMenu.c
+  userMenu.c
+  addUserFileUsers.c
+  printCharacterConsole.c
+  printFromIndexLineNCharacters.c
+  printProductsTransportationConsole.c
+  printUsersConsole.c
+  saveFileTransportations.c
+  saveFileUsers.c
+  counterTransportationsOfUser.c
+  Создание кода...
+  Компиляция...
+  createTransportationMenu.c
+  deleteTransportation.c
+  findMaxNumberProductsIdTransportationsOfUsers — копия.c
+  findProfitableIdTransportationsOfUser.c
+  findProfitableIdTransportationsOfUsers.c
+  sumDistanceTraveledTransportationsOfUser.c
+  sumFuelConsumedTransportationsOfUser.c
+  sumPricesTransportationsOfUser.c
+  blockUser.c
+  deleteUser.c
+  registerUser.c
+  resetPassword.c
+  startProgram.c
+E:\Учеба\CourseWorks\CourseWork2TermN1\startProgram.c(14,2): warning C4013: srand: нет определения; предполагается "extern" с возвратом типа "int"
+  Создание кода...
+  CourseWork2TermN1.vcxproj -> E:\Учеба\CourseWorks\CourseWork2TermN1\x64\Debug\CourseWork2TermN1.exe
